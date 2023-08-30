@@ -18,7 +18,7 @@ adding_tip = tip_percentage / 100
 split_bill = int(input("how many members bill split with? "))
 
 tip_add = bill_amount * adding_tip
-total_bill = bill_amount + tip_percentage
+total_bill = bill_amount + tip_add
 people_divide = total_bill / split_bill
 rounding_num = round(people_divide, 2)
 
